@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30619.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "src", "http://localhost:59694", "{3EED9523-57DE-4033-9ED7-0738057BCB2A}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "src(4)", "http://localhost:59694", "{3EED9523-57DE-4033-9ED7-0738057BCB2A}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
@@ -23,6 +23,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "src", "http://localhost:596
 		Release.AspNetCompiler.Debug = "False"
 		SlnRelativePath = "src\"
 		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D141EAA3-E9F0-49B4-BCA6-0A33C4778770}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
 Global
