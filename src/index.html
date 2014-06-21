@@ -1,27 +1,23 @@
-﻿@{
-	string title = "LigerShark";
-	string desc = "The home of the GitHub organization LigerShark";
-}
-<!doctype html>
+﻿<!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebApplication">
 <head prefix="og: http://ogp.me/ns#">
-	<title>@title</title>
+	<title>LigerShark</title>
 	<meta charset="utf-8" />
-	<meta name="description" content="@desc" />
+	<meta name="description" content="The home of the GitHub organization LigerShark" />
 	<meta name="viewport" content="width=800">
 	<meta name="author" content="Sayed Hashimi and Mads Kristensen" />
 
-	<style>@System.IO.File.ReadAllText(Server.MapPath("~/css/site.css"))</style>
+	<link rel=" stylesheet" href="/css/site.css" />
 
-	<meta property="og:title" content="@title" />
-	<meta property="og:description" content="@desc" />
+	<meta property="og:title" content="LigerShark" />
+	<meta property="og:description" content="LigerShark" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="@(Request.RawUrl)" />
+	<meta property="og:url" content="http://ligershark.com" />
 	<meta property="og:image" content="/img/background.png" />
 
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="@title" />
-	<meta name="twitter:description" content="@desc" />
+	<meta name="twitter:title" content="LigerShark" />
+	<meta name="twitter:description" content="The home of the GitHub organization LigerShark" />
 	<meta name="twitter:image" content="/img/background.png" />
 
 	<link rel="shortcut icon" href="/favicon.ico">
